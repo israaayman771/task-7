@@ -1,0 +1,83 @@
+section {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/bg-pattern-top.svg);
+    background-image: url(../img/bg-pattern-bottom.svg);
+
+  
+
+}
+.container {
+    display: flex;
+    background-image: url(../img/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    width: 266px;
+    height: 334px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 14px;
+    position: relative;
+    background-size: 100% 40%
+}
+.image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 71px;
+
+
+}
+h1 {
+   margin: 10px;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 3%, 18%);
+}
+.image p {
+   margin: 0px;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+p {
+    margin: 0px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 10px;
+}
+h2 {
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+span {
+    color: hsl(0, 0%, 59%);
+}
+img {
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}   
+.info {
+    display: flex;
+    border-top: 1px solid grey;
+    width: 230px;
+    padding: 20px;
+}
